@@ -727,10 +727,12 @@ li {
     display: block;
     margin-bottom: 4px;
 }
+.div-modal-l {
+    margin-bottom: 8px;
+}
 .div-modal-si {
     position: relative;
-    width: 100%;
-    margin-bottom: 8px;
+
 }
 .input-modal {
     width: 100%;
