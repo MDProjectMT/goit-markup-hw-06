@@ -668,7 +668,7 @@ li {
     gap: 16px;
 }
 .label-footer {
-    
+    gap: 24px;
 }
 .input-footer {
     background-color: transparent;
@@ -676,7 +676,6 @@ li {
     height: 40px;
     border: 1px solid var(--white-color);
     border-radius: 4px;
-    gap: 24px;
     font-size: 12px;
     line-height: 1.5;
     padding-left: 16px;
@@ -688,14 +687,14 @@ li {
     color: var(--white-color);
 }
 .btn-footer {
-    min-width: 164px;
+    min-width: 165px;
     display: flex;
     align-items: center;
     justify-content: center;
     background-color: var(--color-text);
     color: var(--white-color);
     cursor: pointer;
-    font-weight: 500px;
+    font-weight: 500;
     line-height: 1.5;
     letter-spacing: 0.04em;
     padding: 0 24px;
