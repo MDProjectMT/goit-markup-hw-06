@@ -786,6 +786,9 @@ li {
 .textarea-modal:focus {
     border-color: var(--focus-hover);
 }
+.div-modal-box {
+    margin-bottom: 24px;
+}
 .label-checkbox {
     display: block;
     font-size: 12px;

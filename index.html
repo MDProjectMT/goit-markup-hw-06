@@ -595,11 +595,10 @@
           </svg>
         </button>
         <p class="modal-p">Leave your contacts and we will call you back</p>
-          <form class="form-modal">
-            <div class="div-modal-l">
-              <label for="user-name" class="label-modal">Name</label>
-            </div>
-            <div class="div-modal-si">            
+        <form class="form-modal">
+          <div class="div-modal-l">
+            <label for="user-name" class="label-modal">Name</label>
+            <div class="div-modal-si">
               <input
                 class="input-modal"
                 type="text"
@@ -616,9 +615,9 @@
                 <use href="./images/icons.svg#icon-person"></use>
               </svg>
             </div>
-            <div class="div-modal-l">
-              <label for="phone" class="label-modal">Phone</label>
-            </div>
+          </div>
+          <div class="div-modal-l">
+            <label for="user-phone" class="label-modal">Phone</label>
             <div class="div-modal-si">
               <input
                 class="input-modal"
@@ -636,9 +635,9 @@
                 <use href="./images/icons.svg#icon-phone"></use>
               </svg>
             </div>
-            <div class="div-modal-l">
-              <label for="email" class="label-modal">Email</label>
-            </div>
+          </div>
+          <div class="div-modal-l">
+            <label for="user-email" class="label-modal">Email</label>
             <div class="div-modal-si">
               <input
                 class="input-modal"
@@ -656,39 +655,39 @@
                 <use href="./images/icons.svg#icon-email"></use>
               </svg>
             </div>
-            <div class="div-modal-l">
-              <label for="user-comment" class="label-modal">Comment</label>
-            </div>
+          </div>
+          <div class="div-modal-l">
+            <label for="user-comment" class="label-modal">Comment</label>
             <div class="div-modal-si">
               <textarea
                 class="textarea-modal"
-                type="comment"
-                id="comment"
+                id="user-comment"
                 name="user_comment"
                 placeholder="Text input"
               ></textarea>
             </div>
-            <div class="div-modal-si">
-              <input
-                class="visually-hidden"
-                type="checkbox"
-                value="true"
-                name="user-privacy"
-                id="user-privacy"
-                checked
-              />
-              <label for="user-privacy" class="label-checkbox"><span class="span-checkbox">
-                  <svg class="svg-icon-modal" width="10" height="8">
-                    <use href="./images/icons.svg#true"></use>
-                  </svg>
-                </span>
-              I accept the terms and conditions of the 
-                <a href="" class="href-checkbox">Privacy Policy</a>
-              </label>
-            </div>
-            <button type="submit" class="btn-send">Send</button>
-          </form>
-        </div>
+          </div>
+          <div class="div-modal-box">
+            <input
+              class="visually-hidden"
+              type="checkbox"
+              value="true"
+              name="user-privacy"
+              id="user-privacy"
+              checked
+            />
+            <label for="user-privacy" class="label-checkbox"
+              ><span class="span-checkbox">
+                <svg class="svg-icon-modal" width="10" height="8">
+                  <use href="./images/icons.svg#true"></use>
+                </svg>
+              </span>
+              I accept the terms and conditions of the
+              <a href="" class="href-checkbox">Privacy Policy</a>
+            </label>
+          </div>
+          <button type="submit" class="btn-send">Send</button>
+        </form>
       </div>
     </div>
     <script src="./js/modal.js"></script>
