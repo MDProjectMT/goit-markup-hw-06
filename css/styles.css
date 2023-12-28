@@ -813,4 +813,26 @@ li {
 }
 .href-checkbox {
     color: var(--color-text);
+    text-decoration-line: underline;
+}
+.btn-send {
+    display: block;
+    margin: auto;
+    min-width: 169px;
+    height: 56px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: var(--white-color);
+    background-color: var(--color-text);
+    cursor: pointer;
+    border: none;
+    border-radius: 4px;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    margin-top: 20px;
+}
+.btn-send:hover, .btn-sent:focus {
+    background-color: var(--focus-hover);
 }
