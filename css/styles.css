@@ -727,7 +727,7 @@ li {
     margin-bottom: 4px;
 }
 .div-modal-l {
-    margin-bottom: 8px;
+    margin-bottom: 16px;
 }
 .div-modal-si {
     position: relative;
@@ -745,6 +745,7 @@ li {
     line-height: 1.5;
     padding-left: 38px;
     letter-spacing: 0.04em;
+    gap: 24px;
 }
 .input-modal:focus {
     border-color: var(--color-text);
@@ -790,7 +791,7 @@ li {
     margin-bottom: 24px;
     height: 16px;
 }
-.label-checkbox {
+.label-check {
     display: block;
     font-size: 12px;
     line-height: 1.17;
