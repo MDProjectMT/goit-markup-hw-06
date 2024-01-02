@@ -667,13 +667,12 @@ li {
     display: flex;
     gap: 16px;
 }
-.label-footer {
-    gap: 24px;
-}
+
 .input-footer {
     background-color: transparent;
     width: 264px;
     height: 40px;
+    gap: 24px;
     border: 1px solid var(--white-color);
     border-radius: 4px;
     font-size: 12px;
@@ -728,11 +727,10 @@ li {
     margin-bottom: 4px;
 }
 .div-modal-l {
-    margin-bottom: 8px;
+    margin-bottom: 16px;
 }
 .div-modal-si {
     position: relative;
-
 }
 .input-modal {
     width: 100%;
@@ -748,19 +746,21 @@ li {
     padding-left: 38px;
     letter-spacing: 0.04em;
 }
-.input-modal:focus, .input-modal:active {
-    border-color: var(--focus-hover);
-    fill: var(--focus-hover)
+.input-modal:focus {
+    border-color: var(--color-text);
+}
+.input-modal:active {
+    fill: var(--color-text);
 }
 .svg-icon-modal {
     position: absolute;
     left: 16px;
     top: 50%;
     transform: translateY(-50%);
-    transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .div-modal-si:focus-within .svg-icon-modal {
-    fill: var(--focus-hover);
+    fill: var(--color-text);
 }
 .textarea-modal {
     width: 100%;
@@ -796,6 +796,11 @@ li {
     letter-spacing: 0.04em;
     color: var(--icon-color);
 
+}
+.input-check:checked + span {
+    border: none;
+    background-color: var(--focus-hover);
+    fill: var(--color-background);
 }
 .span-checkbox {
     display: inline-flex;
