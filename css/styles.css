@@ -729,6 +729,9 @@ li {
 .div-modal-l {
     margin-bottom: 8px;
 }
+.div-modal-c {
+    margin-bottom: 16px;
+}
 .div-modal-si {
     position: relative;
     gap: 24px;
