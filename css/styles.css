@@ -665,7 +665,7 @@ li {
 }
 .form-footer {
     display: flex;
-    gap: 16px;
+    gap: 24px;
 }
 
 .input-footer {
@@ -727,7 +727,7 @@ li {
     margin-bottom: 4px;
 }
 .div-modal-l {
-    margin-bottom: 16px;
+    margin-bottom: 8px;
 }
 .div-modal-si {
     position: relative;
@@ -799,7 +799,7 @@ li {
     color: var(--icon-color);
 
 }
-.input-check:checked .span-checkbox {
+.input-check:checked + label > span {
     border: none;
     background-color: var(--focus-hover);
     fill: var(--color-background);
